@@ -10,14 +10,9 @@ var promise = require("bluebird"),
   con = require("../lib/dbConnection");
 
 module.exports = {
-  checkContact: checkContact,
-  addContact: addContact,
   fetchContactId: fetchContactId,
   updateContact: updateContact,
-  updateContactTags: updateContactTags,
   updateSimpleFlag: updateSimpleFlag,
-  updateContactWrapper: updateContactWrapper,
-  updateMCLists: updateMCLists
 };
 
 // DB connections
