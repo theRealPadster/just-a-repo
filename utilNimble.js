@@ -55,7 +55,7 @@ function updateContact(contactId, fields, replace = false) {
   });
 
   // Construct endpoint
-  var endpoint = "https://app.nimble.com/api/v1/contact/" + contactId;
+  var endpoint = "https://app.nimble.com/api/v2/contact/" + contactId;
   endpoint += replace ? "?replace=1" : "";
 
   // Make request to Nimble API
