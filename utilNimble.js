@@ -12,7 +12,7 @@ var promise = require("bluebird"),
 module.exports = {
   fetchContactId: fetchContactId,
   updateContact: updateContact,
-  updateSimpleFlag: updateSimpleFlag,
+  updateSimpleFlag: updateSimpleFlag
 };
 
 // DB connections
